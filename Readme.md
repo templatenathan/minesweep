@@ -29,3 +29,8 @@ Board
 
 - can be drawn
 - size can be specified through setting rows and columns
+
+Square
+
+- either is bomb or not
+- can be clicked or flagged, or unclicked
