@@ -15,8 +15,8 @@ terraform {
   }
 }
 
-resource "sonarcloud_project" "minesweep" {
-  key        = "minesweep"
-  name       = "minesweep"
+resource "sonarcloud_project" "mine" {
+  key        = "mine"
+  name       = "mine"
   visibility = "public"
 }
