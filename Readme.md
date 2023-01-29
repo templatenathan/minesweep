@@ -22,3 +22,10 @@ Game creation state:
 +-+-+-+
 
 [Sandbox 3x3] Game created
+
+# Domain
+
+Board
+
+- can be drawn
+- size can be specified through setting rows and columns
