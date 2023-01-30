@@ -16,5 +16,9 @@ TODO:
 
 ## Pomodoro 2
 
-✅ tech debt, create and use Square class, enable clicking empty square
+✅ add Square class
+
+## Pomodoro 3
+
+✅ use Square class, enable clicking empty square
 ✅ there should be a separator between rows

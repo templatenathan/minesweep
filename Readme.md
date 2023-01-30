@@ -35,3 +35,9 @@ Square
 - either is bomb or not
 - can be clicked or flagged, or unclicked
 - a square can be drawn
+
+Game
+
+- has a board
+- draws the board at the beginning of the game with the message '[Sandbox 3x3] Game created
+  '
