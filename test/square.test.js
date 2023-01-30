@@ -13,6 +13,12 @@ describe("An unclicked Square", () => {
     const square = new Square();
     expect(square.draw()).toBe(" ");
   });
+
+  it("can be clicked", () => {
+    const square = new Square();
+    square.click();
+    expect(square.isClicked).toBe(true);
+  });
 });
 
 describe("A clicked square", () => {

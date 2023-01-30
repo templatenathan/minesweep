@@ -11,6 +11,10 @@ class Square {
     }
     return EMPTY_SPACE;
   }
+
+  click() {
+    this.isClicked = true;
+  }
 }
 
 module.exports = Square;
