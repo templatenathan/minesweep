@@ -12,8 +12,8 @@ TODO:
 
 ✅ add domain
 
-🚧 red green refactor for drawing empty board of dynamic size
+✅ red green refactor for drawing empty board of dynamic size
 
-## Pomodoro 1
+## Pomodoro 2
 
-🚧 tech debt, create and use Square class
+✅ tech debt, create and use Square class, enable clicking empty square
