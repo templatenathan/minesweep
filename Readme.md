@@ -34,3 +34,4 @@ Square
 
 - either is bomb or not
 - can be clicked or flagged, or unclicked
+- a square can be drawn
