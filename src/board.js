@@ -25,7 +25,14 @@ class Board {
         }
       }
       console.log("|" + row.join("|") + "|");
+      if (rowIndex !== this.size - 1) {
+        console.log(this.buildSeparator(row));
+      }
     }
+  }
+
+  buildSeparator(row) {
+    return "+" + row.map(() => "-").join("+") + "+";
   }
 }
 
