@@ -1,3 +1,7 @@
-class Square {}
+class Square {
+  draw() {
+    return " ";
+  }
+}
 
 module.exports = Square;

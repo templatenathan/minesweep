@@ -7,3 +7,10 @@ describe("The Square bomb status", () => {
     expect(square.isBomb).toBe(true);
   });
 });
+
+describe("An unclicked Square", () => {
+  it("an unclicked square should display as a blank space", () => {
+    const square = new Square();
+    expect(square.draw()).toBe(" ");
+  });
+});
