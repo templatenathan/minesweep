@@ -1,3 +1,4 @@
+/*global console*/
 const Board = require("./board");
 
 class Game {
@@ -7,6 +8,7 @@ class Game {
 
   start() {
     this.board.draw();
+    console.log("Game created");
   }
 }
 

@@ -39,5 +39,4 @@ Square
 Game
 
 - has a board
-- draws the board at the beginning of the game with the message '[Sandbox 3x3] Game created
-  '
+- draws the board at the beginning of the game with the message Game created
