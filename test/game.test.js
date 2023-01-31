@@ -18,3 +18,13 @@ describe("The start of the game", () => {
     expect(mockConsoleLog).toHaveBeenCalledWith("Game created");
   });
 });
+
+describe("A move is made", () => {
+  it("the selected square should be clicked", () => {
+    const game = new Game();
+    game.move(0, 0);
+    expect(game.board.squares[0][0].isClicked).toBeTruthy();
+  });
+});
+
+// X bombs around your square.

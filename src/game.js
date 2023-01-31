@@ -10,6 +10,10 @@ class Game {
     this.board.draw();
     console.log("Game created");
   }
+
+  move(rowIndex, columnIndex) {
+    this.board.squares[rowIndex][columnIndex].isClicked = true;
+  }
 }
 
 module.exports = Game;
