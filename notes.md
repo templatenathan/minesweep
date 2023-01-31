@@ -28,4 +28,4 @@ TODO:
 ✅ initialization of the game
 ✅: when a move is made, number of bombs should be shown: 3 bombs around your square.
 ✅: moves should be made until all spaces are clicked
-🚧: a victory message shows when all spaces are clicked
+✅: a victory message shows when all spaces are clicked

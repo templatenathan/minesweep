@@ -12,6 +12,7 @@ class Game {
     this.board.squares.forEach((row) => {
       row.forEach((square) => (square.isClicked = true));
     });
+    console.log("the land is cleared! GOOD JOB!");
   }
 
   move(rowIndex, columnIndex) {

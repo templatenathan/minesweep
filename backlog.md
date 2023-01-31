@@ -58,6 +58,7 @@ GIVEN a game
 WHEN it starts
 THEN moves keep being made until the game is done
 
+✅
 GIVEN a game
 WHEN it starts
 THEN a victory message is shown 'the land is cleared! GOOD JOB!'

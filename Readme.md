@@ -40,3 +40,4 @@ Game
 
 - has a board
 - draws the board at the beginning of the game with the message Game created
+- moves keep on being made until the game is won

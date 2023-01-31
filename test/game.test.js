@@ -27,6 +27,18 @@ describe("The start of the game", () => {
   });
 });
 
+describe("Upon winning the game", () => {
+  it("the message 'the land is cleared! GOOD JOB!' should be shown", () => {
+    const mockConsoleLog = jest.fn();
+    console.log = mockConsoleLog;
+    const game = new Game();
+    game.start();
+    expect(mockConsoleLog).toHaveBeenCalledWith(
+      "the land is cleared! GOOD JOB!"
+    );
+  });
+});
+
 describe("A move is made", () => {
   it("the selected square should be clicked", () => {
     const game = new Game();
