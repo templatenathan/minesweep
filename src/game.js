@@ -9,6 +9,9 @@ class Game {
   start() {
     this.board.draw();
     console.log("Game created");
+    this.board.squares.forEach((row) => {
+      row.forEach((square) => (square.isClicked = true));
+    });
   }
 
   move(rowIndex, columnIndex) {

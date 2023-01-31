@@ -17,6 +17,14 @@ describe("The start of the game", () => {
     game.start();
     expect(mockConsoleLog).toHaveBeenCalledWith("Game created");
   });
+
+  it("moves keep on being made until the board is all cleared", () => {
+    const game = new Game();
+    game.start();
+    game.board.squares.forEach((row) => {
+      row.forEach((square) => expect(square.isClicked).toBeTruthy());
+    });
+  });
 });
 
 describe("A move is made", () => {

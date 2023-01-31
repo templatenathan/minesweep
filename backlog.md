@@ -53,6 +53,7 @@ GIVEN a game
 WHEN a move is made
 THEN the board is drawn with the message 'X bombs around your square.'
 
+✅
 GIVEN a game
 WHEN it starts
 THEN moves keep being made until the game is done
