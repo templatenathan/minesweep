@@ -43,6 +43,11 @@ I want the game to proceed automatically
 So that I can watch it
 
 A.
+✅
 GIVEN a game
 WHEN it starts
 THEN it is drawn with a message
+
+GIVEN a game
+WHEN a move is made
+THEN the board is drawn with the message 'X bombs around your square.'
