@@ -58,8 +58,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
-          args: -Dsonar.projectKey=minesweep
-            -Dsonar.projectName=minesweep
+          args: -Dsonar.projectKey=minesweeperr
+            -Dsonar.projectName=minesweeperr
             -Dsonar.organization=template
             -Dsonar.javascript.coveragePlugin=lcov
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info

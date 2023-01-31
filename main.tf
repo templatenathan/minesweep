@@ -2,7 +2,7 @@ terraform {
   required_providers {
     sonarcloud = {
       source  = "rewe-digital/sonarcloud"
-      version = "0.2.1"
+      version = "0.5.2"
     }
   }
 
@@ -15,8 +15,8 @@ terraform {
   }
 }
 
-resource "sonarcloud_project" "minesweep" {
-  key        = "minesweep"
-  name       = "minesweep"
+resource "sonarcloud_project" "minesweeperr" {
+  key        = "minesweeperr"
+  name       = "minesweeperr"
   visibility = "public"
 }
