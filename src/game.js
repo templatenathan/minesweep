@@ -14,6 +14,7 @@ class Game {
   move(rowIndex, columnIndex) {
     this.board.squares[rowIndex][columnIndex].isClicked = true;
     this.board.draw();
+    console.log("'0' bombs around your square");
   }
 }
 

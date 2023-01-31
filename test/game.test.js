@@ -33,6 +33,12 @@ describe("A move is made", () => {
     game.move(0, 0);
     expect(mockDraw).toBeCalled();
   });
-});
 
-// X bombs around your square.
+  it("the message, '0' bombs around your square' should be printed", () => {
+    const game = new Game();
+    const mockConsoleLog = jest.fn();
+    console.log = mockConsoleLog;
+    game.move(0, 0);
+    expect(mockConsoleLog).toHaveBeenCalledWith("'0' bombs around your square");
+  });
+});
