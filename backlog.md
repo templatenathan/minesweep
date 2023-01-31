@@ -48,6 +48,15 @@ GIVEN a game
 WHEN it starts
 THEN it is drawn with a message
 
+✅
 GIVEN a game
 WHEN a move is made
 THEN the board is drawn with the message 'X bombs around your square.'
+
+GIVEN a game
+WHEN it starts
+THEN moves keep being made until the game is done
+
+GIVEN a game
+WHEN it starts
+THEN a victory message is shown 'the land is cleared! GOOD JOB!'
