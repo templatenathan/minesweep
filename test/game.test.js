@@ -25,6 +25,14 @@ describe("A move is made", () => {
     game.move(0, 0);
     expect(game.board.squares[0][0].isClicked).toBeTruthy();
   });
+
+  it("the board should be drawn", () => {
+    const game = new Game();
+    const mockDraw = jest.fn();
+    game.board.draw = mockDraw;
+    game.move(0, 0);
+    expect(mockDraw).toBeCalled();
+  });
 });
 
 // X bombs around your square.
